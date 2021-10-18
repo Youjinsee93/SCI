@@ -1,0 +1,22 @@
+version: '3.2'
+
+services:
+    vue:
+        # restart: always
+        build: ./frontend
+        ports:
+            - "80:80"
+        working_dir: /app
+        environment:
+            - PORT=80
+        command: http-server dist
+
+    flask:
+        # restart: always
+        build: ./backend
+        ports:
+            - "5000:5000"
+        working_dir: /app
+        volumes:
+            - .:/app
+        command: python3 /app/backend/run_server.py

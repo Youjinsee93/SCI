@@ -1,0 +1,22 @@
+.ping {
+    background: rgba(255, 255, 255, 0.0);
+    border-radius: 50%;
+    border: 10px solid #222;
+    width: 7px;
+    height: 7px;
+    animation: load 1.0s cubic-bezier(0.25, 0.25, 0.75, 0.75) infinite;
+    position: absolute;
+}
+
+@keyframes load {
+    0% {
+        background: rgba(255, 255, 255, 0.0);
+        border: 0px solid rgba(255, 255, 255, 0.0);
+
+    }
+    100% {
+        background: rgba(255, 255, 255, 0.1);
+        border: 30px solid rgba(255, 71, 71, 0.5);
+
+    }
+}

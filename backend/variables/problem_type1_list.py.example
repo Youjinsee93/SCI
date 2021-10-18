@@ -1,0 +1,55 @@
+problems = [
+    {
+        'num': 1,
+        'question_text': '왼쪽의 짧은 영상을 시청 후, 느꼈던 감정에 대하여 표현/선택해주세요. 혹시 제시된 단어가 없다면 가장 비슷한 단어를 선택후, 기타란에 자유롭게 적어주세요.',
+        'question_resource': '1.Amusing/1-6.mp4',
+        'question_type': 'word-select',
+        'question_sign': '1.Amusing/1-6.mp4',
+        'answer_selection': [
+            {
+                'label': '즐겁다',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '즐겁다2',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '즐겁다3',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '즐겁다4',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '즐겁다5',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '즐겁다6',
+                'color': '#FFF2CC',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+            {
+                'label': '우울한',
+                'color': '#B4C7E7',
+                'sign_video': '1.Amusing/1-7.mp4',
+            },
+        ],
+        'user_input': True
+    },
+    {
+        'num': 2,
+        'question_text': '앞에서 선택한 감정 단어에 대한 간단한 설문을 진행해주세요.',
+        'question_resource': '1.Amusing/1-2.gif',
+        'question_type': 'word-evaluation',
+        'question_sign': '1.Amusing/1-6.mp4',
+        'user_input': False
+    },
+]

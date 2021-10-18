@@ -1,0 +1,9 @@
+user_id	name	sex	age	disabled_degree	disabled_type	communication_type	communication_input
+1	s	male	s	s	C	['B']	
+2	s	etc	s	s	A	['B']	
+3	s	etc	s	s	D	['B']	
+4	s	etc	s	s	B	['C']	
+5	s	etc	s	s	B	['C']	
+6	s	male	s	s	B	['B']	
+7	d	etc	d	d	C	['B']	
+8	s	etc	s	s	B	['B']	
